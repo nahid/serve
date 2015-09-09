@@ -4,38 +4,38 @@
 First make the file executable. write the code
 
 ```
-sudo chmod +x /path/to/serve.sh
+$ sudo chmod +x /path/to/serve.sh
 ```
 
 then move serve.sh file to /usr/bin directory
 
 ```
-sudo mv serve.sh /usr/bin/serve
+$ sudo mv serve.sh /usr/bin/serve
 ```
 
 ### Usage
 
 ```
-serve
+$ serve
 ```
 
 basically when you run it then the system make this command
 ```
-php -S localhost:8000
+$ php -S localhost:8000
 ```
 by default it will run under 8000 port
 
 if you want to run it with custom port just follow the system
 ```
-serve 8080
+$ serve 8080
 ```
 
 checking version
 ```
-serve version
+$ serve version
 ```
 
 checking program name
 ```
-serve name
+$ serve name
 ```
